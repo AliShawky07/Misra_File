@@ -10,7 +10,7 @@
 /*Local Symbols*/
 /*********************************************************************************/
 /*Paring States*/
-#define PAIRING_STATE_IDLE                  0xff
+#define PAIRING_STATE_IDLE                  0xffu
 #define PAIRING_STATE_INITIALIZING          0x00
 #define PAIRING_STATE_WAIT_INIT_RESP        0x01
 #define PAIRING_STATE_INQUIRE               0x02
